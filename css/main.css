@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.serial {
+  background-color: #eee;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px auto 0;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  height: 64px;
+}
+.genrator {
+  display: block;
+  background-color: #f44336;
+  margin: 20px auto;
+  font-weight: bold;
+  width: fit-content;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  user-select: none;
+}
+.genrator:hover {
+  background-color: #f4433699;
+  transition: 0.3s;
+}
